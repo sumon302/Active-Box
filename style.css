@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Raleway:wght@300;400;500;600;700;800&display=swap');
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+ */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul li{
+    list-style-type: none;
+   
+}
+a{
+    text-decoration: none;
+}
+.container{
+    margin: 0 auto;
+    width: 1200px;
+    padding: 0 15px;
+}
+.header-section{
+    background-image: url(./img/ActiveBox.png-2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header-section .container{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+    align-items: center;
+
+}
+.header-section .container .header-logo{
+    font-size: ;
+}
+.header-banner .menu{
+    display: flex;
+    font-family: 'Raleway', sans-serif;
+  
+}
+.header-banner .menu li a{
+    font-size: 14px;
+    padding: 20px 60px;
+    text-transform: uppercase;
+}
+.header-banner .menu li a:last-child{
+    padding-right: 0;
+}
