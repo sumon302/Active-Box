@@ -292,6 +292,48 @@ padding: 0 25px;
     color: #fff;
     text-transform: uppercase;
     padding-left: 84px;
+    font-size: 13px;
+    font-weight: 700;
+
+}
+
+/* ------------------page-5 end ------------- */
+
+/* -----------download Section start------------- */
+.download-section .container{
+    text-align: center;
+
+}
+
+.download-section .container h3{
+    margin-top: 100px;
+    margin-bottom: 22px;
+    font-family: 'Raleway', sans-serif;
+   font-size: 28px;
+   font-weight: 400;
+}
+
+
+.download-section .container p{
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 700;
+    margin-bottom: 40px;
+
+}
+.download-section .container a{
+    border: 1px solid #E84545 ;
+    padding: 20px 84px;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #E84545 ;
+    border-radius: 4px;
+    margin-bottom: 100px;
+
 }
 
 
@@ -303,9 +345,4 @@ padding: 0 25px;
 
 
 
-
-
-
-
-
-/* ------------------page-5 end ------------- */
+/* -----------download Section end------------- */
