@@ -349,7 +349,7 @@ padding: 0 25px;
     justify-content: space-between;
     padding-top: 70px;
    padding-bottom: 102px;
- 
+   text-align: center;
 }
 .share-section .container .location{
     width: 30%;
@@ -370,18 +370,19 @@ padding: 0 25px;
     text-transform: uppercase;
     font-family: 'Raleway', sans-serif;
     padding-bottom: 22px;
-    align-items: center;
+   
 }
 .share-section .container p{
   
     font-size: 14px;
     font-weight: 400;
     color: #AFB0BC;
-
+    
+   
 }
 .share-section .container .location p{
-     padding-right: 200px;
-     line-height: 18px;
+     padding: 0 100px;
+    
 }
 .share-section .container .bottom a{
     padding: 9px 14px;
@@ -389,10 +390,35 @@ padding: 0 25px;
     font-size: 18px;
     color: #fff;
     font-weight: 400;
+    
 }
 
-
-
-
-
 /* -------------Share-Section end --------- */
+
+/* ---------------- lasrt-page start--------------- */
+.last-page{
+    background-color: #313454;
+}
+.last-page .container{
+   padding-top: 30px;
+   padding-bottom: 32px;
+   text-align: center;
+   padding-left: 100px;
+   padding-right: 100px;
+}
+.last-page .container p{
+   font-size: 14px;
+   font-family: 'Open Sans', sans-serif;
+   color: #808080;
+  
+}
+.last-page .container .fa-solid{
+    font-size: 24px;
+    color: red;
+}
+.last-page .container .color{
+    font-size: 14px;
+    color: #fff;
+}
+
+/* ---------------- lasrt-page end--------------- */
