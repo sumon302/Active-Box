@@ -205,15 +205,69 @@ padding: 0 25px;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
 /* -------------------Gallery section end Page-3------------- */
+
+
+/* -----------------team-section start page-4--------------- */
+.team-section .container{
+    display: flex;
+    padding: 100px 0;
+    
+
+}
+.team-section .container .team-item h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    
+    
+}
+
+.team-section .container .team-item h3{
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: red;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+
+}
+.team-section .container .team-item p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #6C7279;
+    padding-right: 35px;
+
+
+}
+
+
+
+
+.team-section .container .team-item .bottom a{
+    margin-top: 52px;
+    border: 1px solid #C6CACC;
+    padding: 11px 11px;
+    color: #C6CACC;
+    font-size: 23px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -----------------team-section end page-4--------------- */
