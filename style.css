@@ -139,8 +139,69 @@ padding: 0 25px;
     font-family: 'Raleway', sans-serif;
     font-size: 14px;
     font-weight: 400;
+}
+
+/* ---------------service-section end------------ */
+
+/* -------------------Gallery section Start Page-3------------- */
+.gallery-section{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 1px;
+    row-gap: 1px;
+}
+
+.gallery-section .gallery-item{
+    max-width: calc(25% - 1px);
+    position: relative;
+
+}
+.gallery-section .gallery-item img{
+    width: 100% ;
+    height: 100%;
+}
+
+.gallery-section .gallery-item .overlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.4s all ease-in-out;
     
+}
+.gallery-section .gallery-item:hover .overlay{
+    background-color: rgba(218, 71, 71, 0.7);
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    visibility: hidden;
+    transition: 0.4s;
+}
+
+.content h3{
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+.content p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
     
+}
+.gallery-section .gallery-item:hover .content{
+    visibility: visible;
 }
 
 
@@ -148,4 +209,11 @@ padding: 0 25px;
 
 
 
-/* ---------------service-section end------------ */
+
+
+
+
+
+
+
+/* -------------------Gallery section end Page-3------------- */
